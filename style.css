@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 70px;
+    width: 70%;
+    text-align: center;
+    background-color: #277bfa;
+}
+
+main{
+    background-color: #69b2f7;
+    color: rgb(14, 4, 4);
+}
+
+h1 {
+    color: rgb(58, 66, 40);
+    text-align: center;
+}
+
+h2{
+    color: rgb(41, 41, 24);
+}
+
+a {
+    text-decoration: none;
+    background-color: #3450ee;
+    color: rgb(247, 244, 244);
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-left:10px #616e62 double;
+    margin border-bottom: 16px;
+}
+
+ul{
+  border-left:10px #616e62 double;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a img {
+width: 50px;
+height: auto;
+}
+footer{
+    background-image: url(etoile.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 90%;
+    height: auto;
+    border-radius: 0px 90px 0px 30px;
+}
+
+
+header{
+    padding: 90px;
+    height: 250px;
+    background-image: url(etoile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    text-align: left;
+    font-style: italic;
+    font-size: xx-large;
+
+}
+
+.image_pied{
+    width: 100%;
+    height: 150px;
+}
+.txt pied{
+    text-align: left;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 150px;
+    
+}
+nav a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  transform: translateY(-20px);
+  color: #f7f5f4;
+}
+.forme *{
+  all: revert;
+  color: black;
+
+}
+
+.form1{
+    background-color: #5296fc;
+    height: 300px;
+    text-align: justify;
+    
+}
+
+.form2{
+    width: 50%;
+    padding: 1%;
+}
+.logo-form{
+    position: relative;
+    right:90px;
+    bottom: 90px;
+    width: 250px;
+}
+.legend{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 7px;
+
+}
+.envoyer{
+    background-color: rgb(57, 235, 102);
+    color: rgb(5, 5, 5);
+    border: 2px double rgb(100, 96, 96);
+    padding: 8px;
+    border-radius: 8px 0 8px 0;
+}
+input[type="submit"] {
+  font-size: 20px;
+        
+}
