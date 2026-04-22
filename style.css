@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: auto;
+    
     padding: 70px;
-    width: 100%;
     text-align: center;
     background-color: #277bfa;
+    margin: 0;
+    overflow-x: hidden;
+    }
 }
 
 main{
@@ -62,6 +64,9 @@ img{
     width: 90%;
     height: auto;
     border-radius: 0px 90px 0px 30px;
+  max-width: 100%;
+  height: auto;
+    
 }
 
 
@@ -96,7 +101,9 @@ html{
     flex-wrap: wrap;
     justify-content: space-around;
     height: 150px;
-    
+  width: 100%;
+  max-width: 1000px;
+    }
 }
 nav a {
     display: inline-block;
